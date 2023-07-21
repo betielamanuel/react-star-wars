@@ -1,4 +1,4 @@
-// StarshipCard.js
+
 import React from "react";
 
 function StarshipCard({ name }) {
