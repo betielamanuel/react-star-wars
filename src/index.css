@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    margin: 20px;
+    padding: 0;
+    border:  rgb(53, 50, 50);
+    border-top: none;
+    margin: 10 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.starship-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 8000px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.starship-card{
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(60, 102, 88);
+    color: antiquewhite;
+    font-family: monospace;
+    transition: background-color 0.3s ease;
+}
+
+.starship-card:hover {
+    background-color: #ddd; /* Change the background color on hover */
+    color: brown;
+}
+
+h1{
+    background-color: rgb(61, 58, 58);
+    color: bisque;
+    font-family: monospace;
+    padding: 10px;
+    margin-top: 0;
+}
